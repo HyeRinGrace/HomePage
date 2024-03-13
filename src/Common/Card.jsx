@@ -23,7 +23,19 @@ function BasicExample() {
         ))}
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
+
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        {Object.values(ProjectName.results).map((item)=>(
+            <div key={item.title}>
+              <Card.Title>{item.title}</Card.Title>
+              <Card.Text>{item.context}</Card.Text>
+            </div>
+        ))}
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
     </Card>
+    
   );
 }
 
