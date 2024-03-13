@@ -1,0 +1,11 @@
+.SkillContainer{
+    color: white;
+    padding:50px;
+    border-bottom: 1px solid white;
+}
+
+.SkillImages{
+    width: 130px;
+    height: 130px;
+    padding:8px;
+}

@@ -1,0 +1,16 @@
+.Banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+
+@media screen and (max-width:720px) {
+    .Banner{
+        height: 300px;
+    }
+    
+}
