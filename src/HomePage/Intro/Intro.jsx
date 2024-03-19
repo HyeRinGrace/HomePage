@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../Introduce/introduce.css';
+import '../Intro/Intro.css';
 
-const Introduce = () => {
+const Intro = () => {
   return (
     <Container className='IntroduceContainer'>
       <Row className='header'>
@@ -47,4 +47,4 @@ const Introduce = () => {
   );
 }
 
-export default Introduce;
+export default Intro;
