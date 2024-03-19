@@ -1,38 +1,23 @@
-import React from 'react'
+import React from 'react';
 import '../Project/Project.css';
-import {Container,Row,Col} from 'react-bootstrap';
-import {useNavigate} from 'react-router-dom';
-import Card from '../../Common/Card';
+import { Container, Row, Col } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import CardProtect from '../../Common/CardProtect';
+import '../Project/Project.css';
 
 const Project = () => {
-
-
   return (
     <Container className='ProjectContainer'>
-    <Row>
-        <h3 className='header'>Project's</h3>
-      <Col>
-        <Card/>
+      <h3 className='header'>Project's</h3>
+      <Col className='ColContainer'>
+        <Row className="g-4">
+          <Col>
+            <CardProtect />
+          </Col>
+        </Row>
       </Col>
-      <Col>
-        <Card/>
-      </Col>
-    </Row>
-    <Row>
-        <Col>
-            <Card/>
-        </Col>
-        <Col>
-            <Card/>
-        </Col>
-    </Row>
-    <Row>
-        <Col>
-            <Card/>
-        </Col>
-    </Row>
-  </Container>
-  )
+    </Container>
+  );
 }
 
-export default Project
+export default Project;
