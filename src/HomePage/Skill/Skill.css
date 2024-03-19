@@ -19,3 +19,9 @@
     width: 200px;
     padding:8px;
 }
+
+.skills{
+    background-color: rgb(49, 48, 48);
+    opacity: 0.8;
+    border-radius: 50px;
+}

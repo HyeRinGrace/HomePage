@@ -13,8 +13,8 @@ const Skill = () => {
   
   return (
     <Container className='SkillContainer'>
+      <h3 className='header'>Skill's</h3>
       <Row>
-        <h3 className='header'>Skill's</h3>
         <Col className='skills'>
           <img className ="SkillImages" src={JsImage}/>
           <img className ="SkillImages" src={CssImage}/>
