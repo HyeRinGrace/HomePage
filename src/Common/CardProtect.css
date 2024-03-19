@@ -1,0 +1,33 @@
+.cardContainer div{
+    width: 400px;
+}
+
+.CardImage{
+    width: 100%;
+    height: 500px;
+}
+
+.Card{
+    width: '50rem'; 
+    height: '35rem'; 
+    margin: '10px';
+    margin-bottom: 100px;
+}
+
+.CardContainer{
+    padding:30px;
+    
+}
+
+@media screen and (max-width: 768px){
+    .CardImage{
+        height: 50%;
+    }
+    .Card{
+        font-size: small;
+    }
+}
+
+.CardBody{
+    background-color: none;
+}

@@ -3,7 +3,7 @@ import '../HomePage/HomePage.css';
 import AppLayout from '../AppLayout/AppLayout';
 import Banner from './Banner/Banner';
 import Skill from './Skill/Skill';
-import Introduce from './Introduce/Introduce';
+import Introduce from './Introduce/introduce';
 import Project from './Project/Project';
 import Bottom from './Bottom/Bottom';
 

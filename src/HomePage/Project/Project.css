@@ -2,4 +2,11 @@
     color: white;
     padding: 50px;
     border-bottom: 1px solid white;
+
+}
+
+.ColContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

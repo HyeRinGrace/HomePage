@@ -1,0 +1,12 @@
+{
+    "projects": [
+    { "id": "1", "title": "넷플릭스 클론코딩", "context": "리액트 + 리액트쿼리를 사용하여 만든 넷플릭스 클론코딩" ,"imageURL":"https://i.ibb.co/CVVDqkZ/2024-03-18-23-23-17.png", "Link":"https://hyeflix-hyerinkims-projects.vercel.app/"},
+    { "id": "2", "title": "스터디 채팅", "context": "VITE + firebase DB + redux를 이용해 만든 실시간 공부채팅 사이트","imageURL":"https://i.ibb.co/s1RQ2B5/2024-03-18-23-26-25.png", "Link":"https://rins-study-chat.vercel.app/" },
+    { "id": "3", "title": "H&M 쇼핑몰", "context": "리액트 + 리덕스 + 리덕스 thunk(미들웨어)를 이용하여 만든 H&M 클론코딩 사이트", "imageURL":"https://i.ibb.co/Bq8TXCZ/2024-03-19-00-26-40.png", "Link":"https://rinshnm-hyerinkims-projects.vercel.app/"},
+    { "id" :"4", "title": "쇼핑몰 페이지(팀프로젝트)", "context": "VITE + 리덕스로 구현한 쇼핑몰 페이지 (담당 영역 : 장바구니 영역)","imageURL":"https://i.ibb.co/RB2xndT/2024-03-19-00-18-18.png", "Link":"https://front-end-ten-rho.vercel.app/"},
+    { "id": "5", "title": "마켓컬리 클론코딩(팀프로젝트)", "context": "타입스크립트 + husky를 이용하여 만든 날씨 웹페이지(담당 영역: 검색 영역)", "imageURL":"https://i.ibb.co/LpyxPH0/2024-03-19-01-01-33.png", "Link":"https://maketkurly-project.vercel.app/"},
+    { "id": "6", "title": "간단한 날씨 웹페이지", "context": "리액트 + Open API 소스를 이용하여 만든 날씨 웹페이지", "imageURL":"https://i.ibb.co/F8bwS4s/2024-03-19-00-14-36.png", "Link":"https://hyether.vercel.app/"}
+
+
+    ]
+}

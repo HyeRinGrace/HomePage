@@ -4,6 +4,7 @@ import HomePage from './HomePage/HomePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skill from './HomePage/Skill/Skill';
 
+
 function App() {
   return (
     <Routes>
